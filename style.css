@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-  background-image: url("background1.png");
+  background-image: url("bg.jpg");
   background-size: cover;
 }
 @keyframes fade-in-effect {
