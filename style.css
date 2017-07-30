@@ -1,27 +1,20 @@
 body{
   overflow-x:hidden;
-  background-image: url("bg.jpg");
+  background-image: url("index.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 2000px;
 }
-@keyframes fade-in-effect {
-  from{opacity: 0.3;}
-  to{opacity: 1;}
+.welcome{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
-.jumbotron{
-  background: rgb(225,225,225,0.3);
-  color:black;
-}
-.well{
-  border: none;
-  background: rgb(225,225,225,0.3);
-  color:black;
-}
-#hoverEffect{
-  opacity: 0.3;
-}
-#hoverEffect:hover{
-  opacity: 1;
-  animation-name: fade-in-effect;
-  animation-duration: 2s;
-
+.branding{
+  position:fixed;
+  bottom:0px;
 }
