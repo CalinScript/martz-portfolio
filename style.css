@@ -3,6 +3,7 @@ body{
   background-image: url("index.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
   background-attachment: scroll;
   background-size: 2000px;
 }
