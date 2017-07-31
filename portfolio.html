@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="portfolio-style.css"/>
 </head>
 <body>
   <script>
@@ -14,11 +14,8 @@
     return new Promise(resolve => setTimeout(resolve,ms));
   }
   async function fadeElements(){
-    $("#fade1").fadeOut(1);
-    $("#fade2").fadeOut(1);
-    $("#fade1").fadeIn(3000);
-    await sleep(2000);
-    $("#fade2").fadeIn(3000);
+    $("#fade").fadeOut(1);
+    $("#fade").fadeIn(2000);
   }
   window.onload = fadeElements;
   </script>
@@ -33,21 +30,25 @@
         </div>
         <div class="navbar-collapse collapse" id="menu-navigation">
         <ul class="nav navbar-nav" id="menu-navigation">
-          <li class="active"><a>Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a>Portfolio</a></li>
           <li><a>Contact Me</a></li>
         </ul>
+        </div>
       </div>
-    </div>
     </nav>
-    <div class="container-fluid">
-      <div class="welcome" id="fade1">
-        <h1>Hi!<br>I'm <strong>Mihai Sturza</strong>,</h1>
-        <p>a programming student at "Colegiul National Elena Cuza"</p>
+    <div class="container-fluid" id="fade">
+      <div class="jumbotron">
+        <div class="about-me" id="fade1">
+          <br><br><h1><strong>About me</strong></h1><br>
+            <p>My name is Mihai, I'm 15 years old and currently studying programming at "Colegiul National Elena Cuza".I started to learn coding since I was 11 by creating my first game in Unity with JavaScript.My passion for computers started since I was a little kid and saw the boot logs of Windows 95, it was really fascinating! (Lucky me that I have Linux).Meanwhile I realised the power of computer programming and found endless posibilities to use it so I started to learn coding and whished that one day "I will change the world".
+        </div>
+        <div class="projects" id="fade2">
+          <br><br><h1><strong>Projects</strong></h1><br>
+          <p>Here are listed my current or finished projects. If you want to request a project we can talk about it in the "Contact Me" page.</p>
+          <br><p>COMING SOON...</p><br>
+        </div>
       </div>
-    </div>
-    <div class="instructions">
-      <p id="fade2"><i>Go on the "Portfolio" page to see what I'm working at!</i></p>
     </div>
   </div>
   <div class="branding">

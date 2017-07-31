@@ -1,0 +1,16 @@
+body{
+  overflow-x: hidden;
+  background-image: url("index.jpeg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: 2000px;
+}
+.branding{
+  position:fixed;
+  bottom:0px;
+}
+.jumbotron{
+  background: rgba(225, 225, 225, 0.3);
+  color: black;
+}
