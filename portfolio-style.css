@@ -1,10 +1,9 @@
 body{
   overflow-x: hidden;
-  background-image: url("index.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("giphy.gif");
   background-position: top center;
   background-attachment: scroll;
-  background-size: 2000px;
+  background-size: cover;
 }
 .branding{
   position:fixed;
@@ -13,4 +12,8 @@ body{
 .jumbotron{
   background: rgba(225, 225, 225, 0.3);
   color: black;
+}
+.image{
+  width: auto;
+  height: auto;
 }

@@ -7,6 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="portfolio-style.css"/>
+  <script src="jquery.particleground.js"></script>
 </head>
 <body>
   <script>
@@ -17,6 +18,7 @@
     $("#fade").fadeOut(1);
     $("#fade").fadeIn(2000);
   }
+  $("body").particleground('start');
   window.onload = fadeElements;
   </script>
   <div class="container">
@@ -41,12 +43,17 @@
       <div class="jumbotron">
         <div class="about-me" id="fade1">
           <br><br><h1><strong>About me</strong></h1><br>
-            <p>My name is Mihai, I'm 15 years old and currently studying programming at "Colegiul National Elena Cuza".I started to learn coding since I was 11 by creating my first game in Unity with JavaScript.My passion for computers started since I was a little kid and saw the boot logs of Windows 95, it was really fascinating! (Lucky me that I have Linux).Meanwhile I realised the power of computer programming and found endless posibilities to use it so I started to learn coding and whished that one day "I will change the world".
+            <p>My name is Mihai, I'm 15 years old and currently studying programming at "Colegiul National Elena Cuza". I started to learn coding since I was 11 by creating my first game in Unity with JavaScript. My passion for computers started since I was a little kid and saw the boot logs of Windows 95, it was really fascinating! (Lucky me that I have Linux). Meanwhile I realised the power of computer programming and found endless posibilities to use it so I started to learn coding and whished that one day "I will change the world".
         </div>
         <div class="project-showcase" id="fade2">
           <br><br><h1><strong>Projects</strong></h1><br>
           <p>Here are listed my current or finished projects. If you want to request a project we can talk about it in the "Contact Me" page.</p>
-          <br><p>COMING SOON...</p><br>
+          <br><h2>Discord Utility and Music Bot</h2><br>
+          <p>Development of this product started on 21.06.2017, relased the first build on 28.06.2017. This app was built with discord.py(Discord's User-Bot API), a python library for creating, connecting and using a Discord Application.</p>
+          <br><h2>Weather app for Romania</h2><br>
+          <p>Development of this app started a week ago and although it doesn't have a GUI it's doing it's job great. The app can show the winds,humidity and actual weather conditions.<br>No screen shot right now,sorry(Will come soon)</p>
+          <br><h2>Self driven car in particle world</h2><br>
+          <p>This was totally my biggest and best project in the Machine Learning field. It took me more than 2 months to understand,apply and test the Bellman Ecuation and Makrov Decision Process, known as Q-Learning. As soon as I think the AI will be complete I will relase it on my website!</p>
         </div>
       </div>
     </div>
