@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#45a0ef"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -19,6 +19,7 @@
       "polygon": {
         "nb_sides": 5
       },
+    },
     "opacity": {
       "value": 0.5,
       "random": false,
@@ -89,11 +90,11 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 50,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 3
+        "particles_nb": 4
       },
       "remove": {
         "particles_nb": 2
@@ -101,5 +102,4 @@
     }
   },
   "retina_detect": true
-  }
 }
