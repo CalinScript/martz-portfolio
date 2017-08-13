@@ -1,6 +1,7 @@
 body{
   overflow-x: hidden;
-  background-color: black;
+  background-image: url("background.jpg");
+  background-size: cover;
 }
 .welcome{
   color: white;
@@ -13,6 +14,9 @@ body{
 .branding{
   position:fixed;
   bottom:0px;
+}
+.navbar{
+  color: #00BFFF;
 }
 .instructions{
   color: white;
