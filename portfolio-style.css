@@ -1,8 +1,6 @@
 body{
   overflow-x: hidden;
-  background-image: url("giphy.gif");
-  background-position: top center;
-  background-attachment: scroll;
+  background-image: url("background.jpg");
   background-size: cover;
 }
 .branding{
