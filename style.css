@@ -16,7 +16,10 @@ body{
   left:5px;
   bottom:7px;
 }
-.navbar{
+.navbar-brand{
+  color: #00BFFF;
+}
+.navbar-nav{
   color: #00BFFF;
 }
 .instructions{
