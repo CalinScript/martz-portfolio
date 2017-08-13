@@ -95,7 +95,7 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 100,
+        "distance": 50,
         "duration": 0.4
       },
       "push": {
