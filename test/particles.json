@@ -1,7 +1,7 @@
 {
   "particles":{
     "number":{
-      "value":400
+      "value":200
     },
     "color":{
       "value":"#fff"
@@ -12,21 +12,18 @@
         "width":1,
         "color":"#ccc"
       },
-      "image":{
-        "src":"http://www.iconsdb.com/icons/preview/white/contacts-xxl.png"
-      }
     },
     "opacity":{
       "value":0.5,
       "random":true,
       "anim":{
-        "enable":false,
+        "enable":true,
         "speed":1
       }
     },
     "size":{
-      "value": 5,
-      "random":false,
+      "value": 3,
+      "random":true,
       "anim":{
         "enable": false,
         "speed":30
