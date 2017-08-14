@@ -6,24 +6,23 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="contact-style.css"/>
   <title>Mihai Sturza-Home</title>
 </head>
 <body>
   <script>
   function sleep(ms){
-    return new Promise(resolve => setTimeout(resolve,ms));
-  }
+  return new Promise(resolve => setTimeout(resolve,ms));
+}
   async function fadeElements(){
     $("#fade1").fadeOut(1);
     $("#fade2").fadeOut(1);
     $("#fade1").fadeIn(3000);
-    await sleep(2000);
-    $("#fade2").fadeIn(3000);
-  }
+  await sleep(2000);
+  $("#fade2").fadeIn(3000);
+}
   window.onload = fadeElements;
   </script>
-<div id="particles-js">
   <div class="container">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
@@ -35,33 +34,30 @@
         </div>
         <div class="navbar-collapse collapse" id="menu-navigation">
         <ul class="nav navbar-nav" id="menu-navigation">
-          <li class="active"><a>Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
+          <li class="active"><a>Contact Me</a></li>
         </ul>
       </div>
     </div>
     </nav>
-    <div class="container-fluid">
-      <div class="welcome" id="fade1">
-        <h1>Hi!<br>I'm <strong>Mihai Sturza</strong>,</h1>
-        <p>a programming student sharing his love and passion for coding</p>
-      </div>
-    </div>
-    <div class="instructions">
-      <p id="fade2"><i>Go on the "Portfolio" page to see what I'm working at!</i></p>
+    <div class="jumbotron">
+      <br><br><h1><strong>Contact</strong></h1><br>
+      <h2><i>Email</i></h2>
+      <p>If you decided to work with me, hire you should contact me via email: none@at-the.moment</p>
+      <h2><i>Discord</i></h2>
+      <p>If you still want to work or hire me .. or you just want to say hi, contact me via Discord, I usually stay on Discord the most. Here's my ID: martz#4433</p>
+      <br>
+      <p>Those are my current contacting methods. For business inquiries the best way to contact me it's via email.</p>
+      <br><br>
+      <h1><strong>Places where you can find me</strong></h1><br>
+      <h2><i>GitHub</i></h2>
+      <p>You can visit my GitHub and have a look at my open-source projects <a href="https://github.com/MArtzDEV/">here</a>.</p>
+      <br><br>
+      <p>NOTE: This page isn't finished yet.</p>
     </div>
   </div>
   <div class="branding">
     <a href="https://www.instagram.com/mihai.sturza" target="_blank"><img src="instagram.png" height="30px" width="30px"/></a>
     <a href="https://www.facebook.com/mihaigeorge.sturza" target="_blank"><img src="facebook.png" height="30px" width="30px"/></a>
   </div>
-</div>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js', 'particles.json', function(){
-      console.log('particles loaded');
-    });
-  </script>
-</body>
-</html>

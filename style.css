@@ -1,7 +1,7 @@
 body{
   overflow-x: hidden;
   background-image: url("background.jpg");
-  background-size: cover;
+  background-size: 2000;
 }
 .welcome{
   color: white;

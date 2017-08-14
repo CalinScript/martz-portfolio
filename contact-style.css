@@ -1,0 +1,14 @@
+body{
+  overflow-x: hidden;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+.branding{
+  position:fixed;
+  left:5px;
+  bottom:7px;
+}
+.jumbotron{
+  background-color: rgba(255, 255, 255, 0.3);
+  color:black;
+}
